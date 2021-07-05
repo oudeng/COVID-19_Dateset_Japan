@@ -1,0 +1,3 @@
+Dataset
+
+https://www3.nhk.or.jp/n-data/opendata/coronavirus/nhk_news_covid19_prefectures_daily_data.csv
