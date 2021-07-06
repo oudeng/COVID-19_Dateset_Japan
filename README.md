@@ -2,12 +2,12 @@
 
 ### As a famous public TV station, NHK made a very good open data website to press the COVID-19 situation, especially the Japan information with daily updating.
 ### This dataset focus on : 'Daily_Confirmed_Cases', 'Daily_Confirmed_Cases_Total', 'Daily_Death' and 'Death_Total' in each prefecture of Japan. The data is from the COVID-19 beginning in Japan to the latest.
-### Data link: https://www3.nhk.or.jp/n-data/opendata/coronavirus/nhk_news_covid19_prefectures_daily_data.csv
+### Datalink: https://www3.nhk.or.jp/n-data/opendata/coronavirus/nhk_news_covid19_prefectures_daily_data.csv
 
-#### Q1: How does the NHK_covid19_dataset.py works?
+#### Q1: How do the NHK_covid19_dataset.py works?
 
-#### A1: It gets NHK COVID-19 dataset automatically and saves as working csv for your own reaserch.
-   Or, according to research purpose to choose a_0 in Col_Dict and to_disply in Prefcture_Dict, we can plot them.
+#### A1: It gets the NHK COVID-19 dataset automatically and saves as a working CSV for your own reaserch.
+   Or, according to the research purpose, to choose a_0 in Col_Dict and to_disply in Prefcture_Dict, we can plot them.
    Modified nice looking matplotlib graph with charming date display and easy setting.
 
 #### Q2: How to use the NHK_covid19_dataset.py?
