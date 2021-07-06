@@ -26,3 +26,7 @@
                    '28': 'Hyogo','29': 'Nara','30': 'Wakayama','31': 'Totori','32': 'Shimane','33': 'Okayama','34': 'Hiroshima',
                    '35': 'Yamaguchi','36':'Tokushima','37': 'Kagawa','38': 'Ehime','39': 'Kochi','40': 'Fukuoka',
                    '41': 'Saga','42': 'Nagasaki','43': 'Kumamoto','44': 'Oita','45': 'Miyazaki','46': 'Kagoshima','47': 'Okinawa'}
+                   
+#### NHK_covid19_dataset.ipynb is the description file for NHK_covid19_dataset.py.
+#### df_target_tmp.csv is the temporary file for adjusting the date display effects in matplotlib plots.
+
