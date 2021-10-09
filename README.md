@@ -3,7 +3,7 @@
 ### This program may be the simplest method to get the COVID-19 key features of Japan. From the pandemic beginning to the latest.
 
 ### As a famous public TV station, NHK made a very good open data website to press the COVID-19 situation, especially the Japan information with daily updating.
-### This dataset focus on : 'Daily_Confirmed_Cases', 'Daily_Confirmed_Cases_Total', 'Daily_Death' and 'Death_Total' in each prefecture of Japan. The data is from the COVID-19 beginning in Japan to the latest.
+### This dataset focus on : 'Daily_Confirmed_Cases', 'Daily_Confirmed_Cases_Total', 'Daily_Death' and 'Death_Total' and 'Death_Ratio_of_Population(100k)' in each prefecture of Japan. The data is from the COVID-19 beginning in Japan to the latest.
 ### Datalink: https://www3.nhk.or.jp/n-data/opendata/coronavirus/nhk_news_covid19_prefectures_daily_data.csv
 
 #### Q: How it works?
@@ -24,3 +24,6 @@ Prefecture_Dict = {'1': 'Hokkaido','2': 'Aomori','3': 'Iwate','4': 'Miyagi','5':
                    '28': 'Hyogo','29': 'Nara','30': 'Wakayama','31': 'Totori','32': 'Shimane','33': 'Okayama','34': 'Hiroshima',
                    '35': 'Yamaguchi','36':'Tokushima','37': 'Kagawa','38': 'Ehime','39': 'Kochi','40': 'Fukuoka',
                    '41': 'Saga','42': 'Nagasaki','43': 'Kumamoto','44': 'Oita','45': 'Miyazaki','46': 'Kagoshima','47': 'Okinawa'}
+                   
+#### Q: Except the above, how this code is beneficail to me ?
+#### A: You can get the points of Pandas data dealing of dataframe and csv, and how to plot a time searies beautifully. 
