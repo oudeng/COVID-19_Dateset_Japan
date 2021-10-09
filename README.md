@@ -1,4 +1,4 @@
-# COVID-19_Dateset_NHK
+# COVID-19_Dateset_Japan
 
 ### This program may be the simplest method to get the COVID-19 key features of Japan. From the pandemic beginning to the latest.
 
