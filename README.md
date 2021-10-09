@@ -4,20 +4,15 @@
 ### This dataset focus on : 'Daily_Confirmed_Cases', 'Daily_Confirmed_Cases_Total', 'Daily_Death' and 'Death_Total' in each prefecture of Japan. The data is from the COVID-19 beginning in Japan to the latest.
 ### Datalink: https://www3.nhk.or.jp/n-data/opendata/coronavirus/nhk_news_covid19_prefectures_daily_data.csv
 
-#### Q1: How do the NHK_covid19_dataset.py works?
+#### Q: How it works?
+#### A: It gets NHK COVID-19 dataset automatically. Acording your input parameters, the filtering result of csv and png will be saved to the results subfolder. 
 
-#### A1: It gets the NHK COVID-19 dataset automatically and saves as a working CSV for your own reaserch.
-   Or, according to the research purpose, to choose a_0 in Col_Dict and to_disply in Prefcture_Dict, we can plot them.
-   Modified nice looking matplotlib graph with charming date display and easy setting.
-
-#### Q2: How to use the NHK_covid19_dataset.py?
-
-#### A2: Input in line77 of a_0 to choose which column of data.
+#### Q: How to use this file?
+#### A: Just input prefered parameters of Col_Dict and  Prefecture_Dict. The input place is between "INPUTs START" and "INPUTs END". 
 
    Col_Dict = {'0':'Prefecture_ID', '1':'Name', '2':'Daily_Confirmed_Cases', '3':'Daily_Confirmed_Cases_Total',
             '4':'Daily_Death', '5':'Death_Total'}
             
-   And input in line112 to choose the prefecture(s) to plot.
    
    Prefecture_Dict = {'1': 'Hokkaido','2': 'Aomori','3': 'Iwate','4': 'Miyagi','5': 'Akita','6': 'Yamagata','7': 'Fukushima',
                    '8': 'Ibaraki','9': 'Tochigi','10': 'Gunma','11': 'Saitama','12': 'Chiba','13': 'Tokyo','14': 'Kanagawa',
@@ -26,7 +21,4 @@
                    '28': 'Hyogo','29': 'Nara','30': 'Wakayama','31': 'Totori','32': 'Shimane','33': 'Okayama','34': 'Hiroshima',
                    '35': 'Yamaguchi','36':'Tokushima','37': 'Kagawa','38': 'Ehime','39': 'Kochi','40': 'Fukuoka',
                    '41': 'Saga','42': 'Nagasaki','43': 'Kumamoto','44': 'Oita','45': 'Miyazaki','46': 'Kagoshima','47': 'Okinawa'}
-                   
-#### NHK_covid19_dataset.ipynb is the description file for NHK_covid19_dataset.py.
-#### df_target_tmp.csv is the temporary file for adjusting the date display effects in matplotlib plots.
 
