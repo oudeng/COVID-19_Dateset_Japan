@@ -1,6 +1,6 @@
 # COVID-19_Dateset_NHK
 
-### This programme may be the simplest method to get the COVID-19 key features of Japan. From the pandemic begining to the latest.
+### This program may be the simplest method to get the COVID-19 key features of Japan. From the pandemic beginning to the latest.
 
 ### As a famous public TV station, NHK made a very good open data website to press the COVID-19 situation, especially the Japan information with daily updating.
 ### This dataset focus on : 'Daily_Confirmed_Cases', 'Daily_Confirmed_Cases_Total', 'Daily_Death' and 'Death_Total' in each prefecture of Japan. The data is from the COVID-19 beginning in Japan to the latest.
