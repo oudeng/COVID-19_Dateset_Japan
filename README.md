@@ -7,10 +7,10 @@
 ### Datalink: https://www3.nhk.or.jp/n-data/opendata/coronavirus/nhk_news_covid19_prefectures_daily_data.csv
 
 #### Q: How it works?
-#### A: It gets NHK COVID-19 dataset automatically. Acording your input parameters, the filtering result of csv and png will be saved to the results subfolder. 
+#### A: It gets the NHK COVID-19 dataset automatically. According to your input parameters, the program will save the filtering results to the results subfolder by a csv file and png.
 
 #### Q: How to use this file?
-#### A: Just input prefered parameters of Col_Dict and  Prefecture_Dict. The input place is between "INPUTs START" and "INPUTs END". 
+#### A: Just input preferred parameters of Col_Dict and Prefecture_Dict. The input place is between "INPUTs START" and "INPUTs END".
 
 # Choose one in Col_Dict.
 Col_Dict = {'0':'Prefecture_ID', '1':'Name', '2':'Daily_Confirmed_Cases', '3':'Daily_Confirmed_Cases_Total',
@@ -25,5 +25,6 @@ Prefecture_Dict = {'1': 'Hokkaido','2': 'Aomori','3': 'Iwate','4': 'Miyagi','5':
                    '35': 'Yamaguchi','36':'Tokushima','37': 'Kagawa','38': 'Ehime','39': 'Kochi','40': 'Fukuoka',
                    '41': 'Saga','42': 'Nagasaki','43': 'Kumamoto','44': 'Oita','45': 'Miyazaki','46': 'Kagoshima','47': 'Okinawa'}
                    
-#### Q: Except the above, how this code is beneficail to me ?
-#### A: You can get the points of Pandas data dealing of dataframe and csv, and how to plot a time searies beautifully. 
+#### Q: Except for the above, how is this code beneficial to me?
+#### A: You can get the points of Pandas data dealing of dataframe and csv, and how to plot a time series beautifully.
+
